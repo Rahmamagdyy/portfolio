@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Routing from './Pages/Routing';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <>p</>
+    <Routing/>
   </React.StrictMode>
 );
 

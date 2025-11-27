@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    padding:2% 0;
+    right: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    z-index: 50;
+    background-color: black;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+
+  
