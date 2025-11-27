@@ -1,0 +1,17 @@
+
+
+.sec1{
+background-color: black;
+ width: 100%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+.rous{
+
+  
+    width: 90%;  
+    padding: 4% 0;
+}
