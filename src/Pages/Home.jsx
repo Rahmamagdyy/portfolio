@@ -18,6 +18,8 @@ const Home = () => {
     <Sec4/>
     <Sec5/>
     <Sec6/>
+
+    
  
 
     </> );
