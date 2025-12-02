@@ -1,0 +1,47 @@
+.sec1{
+    background-color: black;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     position: relative;
+    
+    }
+    
+    
+    
+    .rous{
+    
+        width: 90%;  
+        padding: 4% 0;
+    
+    }
+    
+    
+    .downloadbtn {
+        display: inline-block; 
+        padding: 12px 40px; 
+        border: 1px solid #fff; 
+        color: #fff; 
+        text-decoration: none; 
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+        font-size: 14px; 
+        font-weight: 500; 
+        letter-spacing: 1px; 
+        transition: all 0.3s; 
+        background: transparent; 
+        cursor: pointer; 
+        position: absolute;
+        bottom: 5%;  
+        z-index: 2;
+        border-radius: 10%;
+    
+      }
+    
+    
+      .downloadbtn:hover {
+        background: #fff;
+        color: #000;
+      }

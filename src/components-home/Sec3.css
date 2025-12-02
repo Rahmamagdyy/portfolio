@@ -1,0 +1,123 @@
+
+.projectssection {
+    background-color: #000;
+    padding: 40px;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+
+.projectscard {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 30px;
+    padding: 50px 45px;
+    max-width: 480px;
+    flex-shrink: 0;
+}
+
+.projectitem {
+    display: flex;
+    gap: 25px;
+    align-items: flex-start;
+}
+
+.projectnumber {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 72px;
+    color: #fff;
+    line-height: 1;
+    min-width: 80px;
+}
+
+.projectdescription {
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+}
+
+.brandname {
+    color: #b8e62e;
+}
+
+.divider {
+    height: 1px;
+    background: linear-gradient(to right, #444, transparent);
+    margin: 35px 0;
+    margin-left: 105px;
+}
+
+.sectiontitle {
+    text-align: right;
+    flex: 1;
+}
+
+.sectiontitle h3 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: clamp(30px, 10vw, 110px);
+    color: #fff;
+    line-height: 0.95;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.sectiontitle h3 span {
+    display: block;
+}
+
+@media (max-width: 1100px) {
+    .projectssection {
+        flex-direction: column-reverse;
+        padding: 40px 30px;
+        gap: 50px;
+    }
+
+    .sectiontitle {
+        text-align: center;
+    }
+
+    .projectscard {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .projectssection {
+        padding: 30px 20px;
+    }
+
+    .projectscard {
+        padding: 35px 25px;
+        border-radius: 20px;
+    }
+
+    .projectitem {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .projectnumber {
+        font-size: 48px;
+        min-width: auto;
+    }
+
+    .projectdescription {
+        font-size: 13px;
+    }
+
+    .divider {
+        margin: 25px 0;
+        margin-left: 0;
+    }
+
+    .sectiontitle h2 {
+        font-size: 50px;
+    }
+}
