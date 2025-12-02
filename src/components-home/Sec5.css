@@ -1,0 +1,219 @@
+.contactsection {
+    background-color: #000;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
+ 
+
+  .connectcontainer {
+    background-color: #0a0a0a;
+    border: 2px solid #e85a2c;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    padding: 60px;
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+  }
+  
+
+  .formsection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25%;
+  }
+
+  .formtitle {
+    font-size: 36px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 15px;
+  }
+
+  .formsubtitle {
+    font-size: 14px;
+    color: #888;
+    line-height: 1.6;
+    margin-bottom: 35px;
+    max-width: 400px;
+  }
+
+  .contactform {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .formrow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .forminput {
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 16px 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .forminput::placeholder {
+    color: #666;
+  }
+
+  .forminput:focus {
+    border-color: #e85a2c;
+  }
+
+  .message {
+    min-height: 120px;
+    resize: vertical;
+    background-color: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 16px 20px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .submitbtn {
+    background: linear-gradient(135deg, #f5a623 0%, #e85a2c 100%);
+    border: none;
+    border-radius: 10px;
+    padding: 16px 30px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 10px;
+  }
+
+  .submitbtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px rgba(232, 90, 44, 0.3);
+  }
+
+  .submitbtn svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .imagesection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .showcaseimage {
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    background: linear-gradient(145deg, #4a6b8a 0%, #2d4a5e 100%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .showcaseimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .showcaseplaceholder {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    font-style: italic;
+  }
+
+  .showcaseplaceholder h3 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+
+  .showcaseplaceholder p {
+    font-size: 14px;
+  }
+
+  @media (max-width: 900px) {
+    .contactsection {
+      padding: 20px;
+    }
+
+    .connectcontainer {
+      grid-template-columns: 1fr;
+      padding: 40px 30px;
+    }
+
+    .imagesection {
+      order: -1;
+    }
+
+    .showcaseimage {
+      min-height: 300px;
+    }
+
+    .triangletopleft {
+      border-left-width: 80px;
+      border-bottom-width: 80px;
+    }
+
+    .triangletopright {
+      border-right-width: 60px;
+      border-bottom-width: 60px;
+    }
+
+    .trianglebottomleft {
+      border-left-width: 60px;
+      border-top-width: 60px;
+    }
+
+    .trianglebottomright {
+      border-right-width: 80px;
+      border-top-width: 80px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .formrow {
+      grid-template-columns: 1fr;
+    }
+
+    .formtitle {
+      font-size: 28px;
+    }
+
+    .connectcontainer {
+      padding: 30px 20px;
+    }
+  }
