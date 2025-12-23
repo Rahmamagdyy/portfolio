@@ -5,6 +5,7 @@ import Featured from './Pages/Featured';
 import Testapi from './Pages/Testapi';
 import Services from './Pages/Services';
 import Contact from './Pages/Assign';
+import Error from './Pages/Error';
 
 const Routing = () => {
     return ( 
@@ -18,6 +19,7 @@ const Routing = () => {
 <Route path='/Services' element={<Services/>} />
 <Route path='/Testapi' element={<Testapi />} />
 <Route path='/Contact' element={<Contact />} />
+<Route path='/Error' element={<Error />} />
 
 </Routes>
 </BrowserRouter>
